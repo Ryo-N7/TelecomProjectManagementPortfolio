@@ -276,7 +276,7 @@ graphics.off()
 
 
 # NO legend
-pie3 <- bp3 + coord_polar("y", start=0) +
+pie3.1 <- bp3 + coord_polar("y", start=0) +
   theme(axis.text=element_blank(),
         axis.ticks= element_blank(), 
         panel.grid = element_blank(),
@@ -291,7 +291,7 @@ pie3 <- bp3 + coord_polar("y", start=0) +
 
 pie3
 
-pie <- bp + coord_polar("y", start=0) +
+pie1.1 <- bp + coord_polar("y", start=0) +
   theme(axis.text=element_blank(),
         axis.ticks= element_blank(), 
         panel.grid = element_blank(),
@@ -306,7 +306,7 @@ pie <- bp + coord_polar("y", start=0) +
 
 pie
 
-pie4 <- bp4 + coord_polar("y", start=0) +
+pie4.1 <- bp4 + coord_polar("y", start=0) +
   theme(axis.text.x=element_blank(),
         axis.ticks= element_blank(), 
         panel.grid = element_blank(),
@@ -319,6 +319,7 @@ pie4 <- bp4 + coord_polar("y", start=0) +
                     name="Expense Type",
                     labels=c("Infrastructure & Capital", "Financing", "Operating"))
 pie4
+
 
 # scale_fill_colorblind()
 
