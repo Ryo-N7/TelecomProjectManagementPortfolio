@@ -135,6 +135,10 @@ Telecom %>%
 
 
 
+
+
+# CREATE DOT PLOT based on pie charts for ^visualization!!!!!!!!!!!!!!!
+
 # PIE CHARTS:
 # 2006 chart
 
